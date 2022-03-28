@@ -1,0 +1,31 @@
+.beneficios {
+    width: 20%;
+    height: 490px;
+}
+
+.linhas {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha1 {
+    width: 800px;
+    height: 50px;
+    background: rgba(190, 205, 209, 0.5);
+}
+
+.linha2 {
+    width: 800px;
+    height: 50px;
+    background: #BECDD1;
+}
+
+.blocos {
+    display: flex;
+}
+
+.numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
