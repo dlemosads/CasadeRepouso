@@ -10,8 +10,28 @@ input {
     width: 900px;
     height: 30px;
     border: solid;
+    margin-bottom: 16px;
+}
+
+.botao {
+
 }
 
 .msg {
     height: 150px;
+}
+
+@media screen and (max-width: 400px) {
+    .cantodir {
+        margin-top: 80px;
+    }
+
+    input {
+        margin-top: 5px;
+        width: 320px;
+    }
+
+    footer {
+        margin-top: 350px;
+    }
 }

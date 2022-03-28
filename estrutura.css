@@ -1,5 +1,47 @@
+.fotoCe {
+    height: 126px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotoCd1e {
+    padding-right: 16px;
+    width: 340px;
+    height: 126px;
+}
+
+.fotoCd2e {
+    width: 340px;
+    height: 126px;
+}
+
 .fotosEstru {
     width: 20%;
     height: 490px;
     background: url(img/imgestr3.svg) no-repeat;
+}
+
+@media screen and (max-width: 400px) {
+    section {
+        display: none;
+    }
+
+    .fotoCe {
+        height: 126px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fotoCd1e>img {
+        padding-left: 16px;
+        width: 300px;
+        height: 250px;
+    }
+    
+    .fotoCd2e>img {
+        padding-left: 16px;
+        width: 300px;
+        height: 250px;
+    }
 }
