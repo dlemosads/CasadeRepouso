@@ -1,0 +1,36 @@
+.cantoesq {
+    width: 20%;
+}
+
+.linha1 {
+    height: 50px;
+    background: #BECDD1;
+}
+
+.linha1>img {
+    padding-left: 16px;
+}
+
+p {
+    padding-left: 16px;
+}
+
+.linha2 {
+    height: 50px;
+    background: rgba(190, 205, 209, 0.5);
+}
+
+.linha3 {
+    height: 40px;
+    background: rgba(190, 205, 209, 0.5);
+}
+
+@media screen and (max-width: 400px) {
+    .mainServ {
+        height: 1300px; 
+    }
+
+    .cantoesq {
+        width: 100%;
+    }
+}

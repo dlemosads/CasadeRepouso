@@ -1,0 +1,19 @@
+.fotosSobre {
+    width: 20%;
+    height: 490px;
+}
+
+@media screen and (max-width: 400px) {
+    .fotosSobre {
+        width: 20%;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .mainSobre {
+        height: 1430px;
+    }
+}

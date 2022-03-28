@@ -1,0 +1,15 @@
+.cantodir {
+    width: 20%;
+    height: 490px;
+    display: flex;
+}
+
+input {
+    width: 900px;
+    height: 30px;
+    border: solid;
+}
+
+.msg {
+    height: 90px;
+}
